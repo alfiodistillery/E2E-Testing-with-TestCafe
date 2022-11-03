@@ -3,4 +3,6 @@ node_modules
 npx
 report
 
+#MacOS files
+.DS_Store
 

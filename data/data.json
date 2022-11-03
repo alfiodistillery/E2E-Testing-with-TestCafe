@@ -1,0 +1,23 @@
+[
+    {
+        "firstname": "James",
+        "lastname": "Bond",
+        "birthday": "2",
+        "birthmonth": "July",
+        "birthyear": "1981",
+        "email": "james_bond@test.com",
+        "password":"6789433",
+        "Confirm_password":"6789433"
+
+    },
+    {
+        "firstname": "Brad",
+        "lastname": "Pit",
+        "birthday": "5",
+        "birthmonth": "May",
+        "birthyear": "1999",
+        "email": "bradpit@test.com",
+        "password":"6789433",
+        "Confirm_password":"6789433"
+    }
+]
