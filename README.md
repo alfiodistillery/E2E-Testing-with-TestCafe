@@ -5,19 +5,20 @@
 [![N](https://codecept.io/img/testcafe.png)](https://testcafe.io/)
 
 ## Features
-For run thoese test we will work with the page [nopcommerce](https://demo.nopcommerce.com/login?returnurl=%2F)
+For execute thoese test we will work with the page [nopcommerce](https://demo.nopcommerce.com/login?returnurl=%2F)
 - Users
--- Create a new user using Data.json
--- Login the new user
--- Logout user
+-     Create a new user using Data.json
+-     Login the new user
+-     Logout user   
+
 - Create an Order 
--- Create a new user
--- Searh a product 
--- Add the product to the cart
--- Confirm Shopping cart
--- Enter a payment method and personal info
--- Verify my order on my account
--- Change Currency to Euro
+-     Create a new user
+-     Searh a product 
+-     Add the product to the cart
+-     Confirm Shopping cart
+-     Enter a payment method and personal info
+-     Verify my order on my account
+-     Change Currency to Euro
 - Export the test result in a HTML file
 
 ## Installation
