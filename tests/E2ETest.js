@@ -44,7 +44,7 @@ test("Create a new user and do an order", async t => {
         .click(SearchResultPage.pruductTitle)
         .expect(getURL()).contains('apple-macbook-pro-13-inch');
 
-    // Setup Product details
+    // Setup Product details and add the product to the cart
     await t
         .expect(ProductDetailsPage.productPrice.exists).ok()
         .selectText(ProductDetailsPage.productQuantity).pressKey("delete")
@@ -54,14 +54,15 @@ test("Create a new user and do an order", async t => {
         .wait(3000)
 
 
-    // Cart and checkout
+    // Confrim shopping Cart
     await t
         .click(HomePage.Cartlink)
         .click(CartPage.termsLabel)
+
         .click(CartPage.checkoutBtn)
         .expect(getURL()).contains('checkout');
 
-    //Place Order
+    //Enter a payment method and personal info
     await CheckoutPage.selectCountry('Germany');
     await t
         .typeText(CheckoutPage.cityTxt, 'Berlin')
@@ -81,7 +82,6 @@ test("Create a new user and do an order", async t => {
     await t
         .click(HomePage.MyAccountLink)
         .click(MyOrderPage.orders);
-
 
     //  Change Currency to Euro
     await HomePage.changeCurrency('Euro');
