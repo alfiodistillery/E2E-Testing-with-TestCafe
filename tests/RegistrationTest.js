@@ -22,7 +22,7 @@ test("Assert Home Page Test", async (t) => {
 dataSet.forEach(data => {
 
     let RandomNumber = Math.floor(Math.random()*1000);
-    test("User Registration and Login Test", async (t) => {
+    test("User -"+data.firstname+"- Registration and Login Test", async (t) => {
         await t
             .click(HomePage.RegisterLink)
             .expect(getURL()).contains('register')

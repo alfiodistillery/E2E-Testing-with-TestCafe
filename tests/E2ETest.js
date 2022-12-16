@@ -54,7 +54,7 @@ test("Create a new user and do an order", async t => {
         .wait(3000)
 
 
-    // Confrim shopping Cart
+    // Confirm shopping Cart
     await t
         .click(HomePage.Cartlink)
         .click(CartPage.termsLabel)

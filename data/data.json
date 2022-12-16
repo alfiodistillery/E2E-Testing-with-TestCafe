@@ -19,5 +19,15 @@
         "email": "bradpit@test.com",
         "password":"6789433",
         "Confirm_password":"6789433"
+    },
+    {
+        "firstname": "Fran",
+        "lastname": "Jone",
+        "birthday": "5",
+        "birthmonth": "Jul",
+        "birthyear": "1999",
+        "email": "FranJone@test.com",
+        "password":"6789433",
+        "Confirm_password":"6789433"
     }
 ]
